@@ -1,0 +1,105 @@
+th {
+  text-align: left;
+  font-size: x-large;
+}
+input {
+  border: solid gray 1px;
+  width: 79%;
+  font-size: x-large;
+  padding: 0.2rem;
+  border-radius: 5px;
+  background-image: linear-gradient(to bottom right, #fcfcfc, #f5f5f2, #e3e3e1);
+}
+.app {
+  margin: auto;
+  width: auto;
+  height: fit-content;
+  padding-top: "1rem";
+
+  background-color: #c7c9bb;
+}
+
+.title {
+  text-align: left;
+  margin: auto;
+  width: 100%;
+  height: fit-content;
+  padding-top: "1rem";
+
+  align-items: center;
+  justify-content: center;
+  background-color: #c7c9bb;
+}
+.table {
+  display: grid;
+  grid-template-columns: 70%, 30%;
+  grid-column-gap: 1rem;
+  width: 50%;
+}
+.app .table .table-inner .thead th {
+  border: solid gray 1px;
+  border-radius: 5px;
+  text-align: center;
+  width: 40%;
+  background-image: linear-gradient(to bottom right, #f2f2e9, #ededd3, #ededc0);
+}
+.app .table .table-inner .tbody .tbody1 {
+  border: solid gray 1px;
+  border-radius: 5px;
+  background-image: linear-gradient(to bottom right, #f7f7f2, #f7f7e6, #f5f5d3);
+  text-align: center;
+}
+.app .table .table-inner .tbody .tbody2 {
+  border: solid gray 1px;
+  border-radius: 5px;
+  background-image: linear-gradient(to bottom right, #f7f7f2, #f7f7e6, #f5f5d3);
+  text-align: center;
+}
+.app .table .table-inner .tbody .btn {
+  text-align: center;
+}
+.app .table .table-inner .tbody .btn1 {
+ width: auto;
+  padding: 10px 15px;
+  border-radius: 8px;
+  text-align: center;
+
+  cursor: pointer;
+  border: solid gray 1px;
+}
+.app .table .table-inner .tbody .btn1:hover {
+  background-image: linear-gradient(to bottom right, #f7f7be, #f2f299, #f5f57f);
+}
+.tbl2 .tbl-head {
+  border: solid gray 1px;
+  text-align: center;
+  border-radius: 5px;
+  width: 29%;
+  background-image: linear-gradient(to bottom right, #f2f2e9, #ededd3, #ededc0);
+}
+.tbl2 .tbl21 .tbl-row {
+  border: solid gray 1px;
+  text-align: center;
+  border-radius: 5px;
+  width: 30%;
+  background-image: linear-gradient(to bottom right, #f7f7f2, #f7f7e6, #f5f5d3);
+}
+.tbl2 .tbl21 .tbl-row2 {
+  border: solid gray 1px;
+  text-align: center;
+  border-radius: 5px;
+  width: 10%;
+  background-image: linear-gradient(to bottom right, #f7f7f2, #f7f7e6, #f5f5d3);
+}
+ .tbody .btn2 {
+  width: auto;
+  padding: 10px 15px;
+  border-radius: 8px;
+  text-align: center;
+
+  cursor: pointer;
+  border: solid gray 1px;
+}
+.tbody .btn2:hover{
+  background-image: linear-gradient(to bottom right, #f7f7be, #f2f299, #f5f57f);
+}
